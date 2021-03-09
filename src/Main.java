@@ -1,18 +1,18 @@
 import java.util.Scanner;
 
 public class Main {
-    private static int minIncome = 2000;
-    private static int maxIncome = 9000;
+    private static int minIncome = 4000;
+    private static int maxIncome = 12000;
 
     private static int officeRentCharge = 1400;
     private static int telephonyCharge = 50;
     private static int internetAccessCharge = 30;
 
-    private static int assistantSalary = 450;
-    private static int financeManagerSalary = 1500;
+    private static int assistantSalary = 1550;
+    private static int financeManagerSalary = 1550;
 
     private static double mainTaxPercent = 0.24;
-    private static double managerPercent = 0.15;
+    private static double managerPercent = 0.25;
 
     private static double minInvestmentsAmount = 10000;
 
