@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
 public class Main {
-    private static int minIncome = 4000;
-    private static int maxIncome = 12000;
+    private static int minIncome = 4000; // definition du chiffre d'affaire minimum
+    private static int maxIncome = 12000; // et max
 
-    private static int officeRentCharge = 1400;
+    private static int officeRentCharge = 1400; // les charges externes
     private static int telephonyCharge = 50;
     private static int internetAccessCharge = 30;
 
-    private static int assistantSalary = 1550;
-    private static int financeManagerSalary = 1550;
+    private static int assistantSalary = 1550; // salaire de l'assistant
+    private static int financeManagerSalary = 1550; // salaire du manager
 
-    private static double mainTaxPercent = 0.24;
+    private static double mainTaxPercent = 0.24; // les charges internes
     private static double managerPercent = 0.25;
 
-    private static double minInvestmentsAmount = 10000;
+    private static double minInvestmentsAmount = 10000; // chiffre d'affaire a partir du quel on peut reinvestir
 
     public static void main(String[] args) {
         while (true) {
